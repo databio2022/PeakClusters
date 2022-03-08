@@ -1,16 +1,19 @@
 Package: PeakClusters
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Identify peak clusters(super enhancers) from CHIP-Seq or ATAC-Seq data.
+Version: 0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Ze-Lin",
+           family = "Wang",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "databio@163.com",
+           comment = "databio")
+Description: Identify peak clusters(super enhancers) from CHIP-Seq or ATAC-Seq data.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    dbscan
+URL: https://github.com/databio2022/PeakClusters
+BugReports: https://github.com/databio2022/PeakClusters/issues
